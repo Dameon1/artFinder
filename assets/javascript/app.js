@@ -81,7 +81,6 @@ $(document).ready(function () {
             url: tokenUrl + "client_id=" + clientID + "&client_secret=" + clientSecret,
             method: "POST"
         }).done(function (res) {
-            console.log(res.token)
             xappToken = res.token;
         });
     }
