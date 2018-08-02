@@ -18,6 +18,7 @@ function initMap() {
   addMarker(32.2350428, -110.9547842, 'U of A');
   $('#galleryName').text('');
   $('#galleryAddr').text('');
+  //$('#map').attr('title','locationMap');
 }
 
 //Resets the map to the entire United States
@@ -65,7 +66,15 @@ $(document).ready(function () {
 
   //Allows modals to be triggered
   initializeModal();
-
+ 
+ 
+ 
+ 
+  $('#map').bind('DOMSubtreeModified', function() {
+    //your code here       
+    $('iframe').attr('title','auto');
+    
+  });
   ////////ARTSY API//////////
 
   //Establish global variables for API call token
@@ -209,11 +218,11 @@ $(document).ready(function () {
     emptyCarousel();
 
     $(array).each(function (key, value ) {
-
       var imgDiv = $('<img>')
         .attr('src', value.imgUrl)
         .attr('id', 'carousel-image')
         .attr('data', value.arrayId)
+        .attr('alt',value.title)
         .css('width', '100%')
         .css('height', '100%')
         .attr('key',key);
@@ -250,7 +259,7 @@ $(document).ready(function () {
 
     for (var i = 0; i < imageArray.length; i++) {
 
-      if (imageArray[i].arrayId == clickId) {
+      if (imageArray[i].arrayId === clickId) {
         artLocation = imageArray[i].institution;
         artTitle = imageArray[i].title;
         artMedium = imageArray[i].medium;
@@ -276,9 +285,9 @@ $(document).ready(function () {
     emptyCard();
 
     var imgDiv = $('<img>')
-      .attr('src', img);
+      .attr('alt', title).attr('src', img);
 
-    $('#card-image').html(imgDiv);
+    $('#card-image').html(imgDiv).attr('alt', title);
 
     $('#art-title').html(title + '<i class="material-icons right">more_vert</i>');
     $('#link').html('<a href=https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=' + 'fine%20art%20' + encodeURI(title) + '%20' + encodeURI(artistName) + ' target="_blank">Find on Amazon</a>');
@@ -289,7 +298,7 @@ $(document).ready(function () {
     $('.card-reveal').empty();
 
     var wrapperDiv = $('<div>');
-    var imgDiv = $('<img>').attr('src', img);
+    var imgDiv = $('<img>').attr('src', img).attr('alt',title+name);
 
     wrapperDiv.append(imgDiv);
 

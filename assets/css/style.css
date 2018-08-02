@@ -19,8 +19,8 @@
   background: white;
   padding: 10px;
   border: 5px;
-  border-bottom-color: teal;
-  border-bottom: 5px solid teal;
+  border-bottom-color: black ;
+  border-bottom: 5px solid black;
 
  } 
 
@@ -68,9 +68,12 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: black;
 }
 
+.link {
+  color:Black
+}
 
 td {
   padding: 0px;
@@ -113,6 +116,7 @@ td {
 
 footer.page-footer {
   margin: 0;
+  background-color:black;
 }
 
 
