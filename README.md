@@ -30,7 +30,7 @@ We began the project by using Wireframe.cc to create an initial layout of the pr
 
 ## Screenshots
 
-<img align="left" width="200" height="300" src="/assets/images/monaLisa.PNG">
+<img align="center" width="200" height="300" src="/assets/images/monaLisa.PNG">
 
 <p align="center">
   <img width="700" height="520" src="/assets/images/monaLisa2.png">
