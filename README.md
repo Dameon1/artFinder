@@ -16,24 +16,24 @@ Design Team
 
 - Abby Thoresen � Front end Lead
 
-##Motivation
+## Motivation
 
 We all enjoy fine art (Especially Abby). 
 It allows you to locate images of historic artwork.
 You can print images from the application.
 You can purchase images of the artwork from Amazon.
 
-##Results
+## Results
 
 Team Efforts
 We began the project by using Wireframe.cc to create an initial layout of the project idea. We choose Grant as the team lead for the project and put him in charge of GitHub. We split the team into a Front End group and a Back End group. Each consisted of two members. Each team member worked on a portion of the project where they felt they had the most strength. Abby and Dameon learned Materialize CSS for the Front End design. Grant worked on the Artsy API and Trish worked on the Google Maps API in the Back End. All team members assisted in testing.
 
-##Screenshots
+## Screenshots
 
 <img align="left" width="200" height="300" src="/assets/images/monaLisa.PNG">
 
 <p align="center">
-  <img width="600" height="520" src="/assets/images/monaLisa2.png">
+  <img width="700" height="520" src="/assets/images/monaLisa2.png">
 </p>
 Challenges
 * Abby�s biggest challenge was learning Materialize CSS. 
