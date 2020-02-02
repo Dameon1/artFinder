@@ -8,13 +8,13 @@ The Art of Finding application allows the user to search for images of historic 
 
 Design Team
 
-- Trish Mederos � Back end, Google Maps API
+- Trish Mederos - Back end, Google Maps API
 
-- Dameon Mendoza � Front end
+- Dameon Mendoza - Front end
 
-- Grant Stolz � Team Lead � Back end, Artsy API
+- Grant Stolz - Team Lead - Back end, Artsy API
 
-- Abby Thoresen � Front end Lead
+- Abby Thoresen - Front end Lead
 
 ## Motivation
 
@@ -36,13 +36,13 @@ We began the project by using Wireframe.cc to create an initial layout of the pr
   <img width="700" height="520" src="/assets/images/monaLisa2.png">
 </p>
 Challenges
-* Abby�s biggest challenge was learning Materialize CSS. 
+* Abby's biggest challenge was learning Materialize CSS. 
 
-* Dameon�s biggest challenge was making sure the application was mobile friendly and trying to ensure the media breaks worked properly.
+* Dameons biggest challenge was making sure the application was mobile friendly and trying to ensure the media breaks worked properly.
 
-* Trish�s biggest challenge was overcoming the CORS (cross origin resource sharing) limitations of Google maps. Google Maps allows CORS, but not on client side applications. 
+* Trish's biggest challenge was overcoming the CORS (cross origin resource sharing) limitations of Google maps. Google Maps allows CORS, but not on client side applications. 
 
-* Grant�s biggest challenge was getting the Artsy API token authentication working.
+* Grant's biggest challenge was getting the Artsy API token authentication working.
 
 Improvements
 Add addition art archiving APIs. The Artsy API only contains public works of art. 
